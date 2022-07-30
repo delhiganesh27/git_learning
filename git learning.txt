@@ -1,3 +1,4 @@
+
 1.git config --global user.name "---"    (--global to give access to the every user in a sys for single user use local)
 2.git config --global user.email had@
 3.git config --global code.editor "code --wait" //for vs code
@@ -7,9 +8,17 @@
 7.git status (ffor checking status)
 8.git add <filename> // to add or update the file in git repository and the file is in staging area
 9.git commit -m "--message--" //to commit and -m for commit message and commit only consider the file in the stagging area
-10.git add * //to add or update everyfiles in he directory same time
+10.git add * or git add . //to add or update everyfiles in he directory same time
 11.git restore --staged filename  //to unadd the file in stagged area
 12.git rm --cached filename // ||ly to 11.
 13.git log //to see what are the changes we commited so far
 14.git checkout commit_id //to know how the file was on specific time commit id is taken form git log
+15.git checkout master //to return to the present version
+16.git log --oneline //LLY to 13 but only id and change will be shown
+17.git log --oneline filename  //to see what are the changes are committed
+18.git log since_commit id to_commit id //to see what are the changes done between to time frames
+19.git log --stat // to check how to file is changes like how many chars are added or subtracted
+20.git reset HEAD //reset the stagging area
+21.git reset HEAD --hard //reset working directory to the last recorded stage and does not remove the newly added directory and file
+22.git clean -fd  //to remove the files and directory which is recently added
 

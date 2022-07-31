@@ -21,4 +21,14 @@
 20.git reset HEAD //reset the stagging area
 21.git reset HEAD --hard //reset working directory to the last recorded stage and does not remove the newly added directory and file
 22.git clean -fd  //to remove the files and directory which is recently added
-
+23.git diff //compare with working and committed file
+24.git diff --cached //compare with working and staged file(not committed)
+25.git tag -a version_no -m "" //for our convinence to know what commit is which version
+26.git tag //to see the tag of the specific commit
+27.git commit --amend //if we missed some files during commit but we need to put these file in the same commit
+	//before commiting these file move to staged area
+removing a unwanted commit
+1.by deleting the commit  //not preferred
+2.by undo the changes and recommit
+28.git reset HEAD~no_of_back_steps //to undo unwanted commit by deleting the commit //not prefered
+29.git revert commit_id  //remove the changes and recommit it

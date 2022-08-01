@@ -32,3 +32,16 @@ removing a unwanted commit
 2.by undo the changes and recommit
 28.git reset HEAD~no_of_back_steps //to undo unwanted commit by deleting the commit //not prefered
 29.git revert commit_id  //remove the changes and recommit it
+
+branching
+30.git branch  //to see what branch we are working
+31.git branch branch_name //to create branch
+32.git checkout branch_name //to move to the branch
+fast forwarding merge
+33.git merge branch_name  //to merge the branch to the working directory before merge return to master
+ more than one branch the merging is called three way merging;conflict will occur for this we need to resolve
+conflicts manually and again add and commit it//not merging
+
+34.  .gitignore //using this file unwanted files should be excluded
+
+

@@ -43,5 +43,7 @@ fast forwarding merge
 conflicts manually and again add and commit it//not merging
 
 34.  .gitignore //using this file unwanted files should be excluded
-
+ 35.git  remote add <name> <url>  //to link the local repository to github repository
+ 36.git push -u <name> <branch_name> //to push the changes to github repository
+ 37. git branch -m old_name new_name //to rename the branch
 
